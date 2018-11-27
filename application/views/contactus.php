@@ -14,9 +14,9 @@
 						<li><a href = "home">Home</a></li>
 						<li><a href = "aboutus">About Us</a></li>
 						<li><a href = "contactus">Contact Us</a></li>
-						<li><a href = "Client.html">Client</a></li>
-						<li><a href = "Service.html">Service</a></li>
-						<li><a href = "Login.html">Login</a></li>
+						<li><a href = "client">Client</a></li>
+						<li><a href = "service">Service</a></li>
+						<li><a href = "login">Login</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -24,7 +24,7 @@
 				<img src="<?php echo base_url(); ?>css/images/petStoreContactUs.png"></img>
 				<div class = "rightWhite">
 					<h2>Contact US</h2>
-					<?php echo form_open(base_url()."/index.php/contactus/contactusmethod"); ?>
+					<?php echo form_open(base_url()."index.php/contactus/contactusmethod"); ?>
 						<p>Required Information is marked with asterisk(*)</p>
 						<table>
 							<tbody>
@@ -33,23 +33,23 @@
 												'type'  => 'text',
 												'name'  => 'fName'
 										);
-							echo form_input($fdata); ?></td></tr>
+							echo form_input($fdata);echo form_error('fName'); ?></td></tr>
 							
 							<tr><td>* Last Name :</td><td><?php $ldata = array(
 												'type'  => 'text',
 												'name'  => 'lName'
 										);
-							echo form_input($ldata); ?></td></tr>
+							echo form_input($ldata);echo form_error('lName'); ?></td></tr>
 							<tr><td>* E-mail :</td><td><?php $edata = array(
 												'type'  => 'email',
 												'name'  => 'email'
 										); 
-							echo form_input($edata);?></td></tr>
+							echo form_input($edata);echo form_error('email');?></td></tr>
 							<tr><td>Phone :</td><td><?php $pdata = array(
 												'type'  => 'text',
 												'name'  => 'phone'
 										); 
-							echo form_input($pdata); ?></td></tr>
+							echo form_input($pdata);echo form_error('phone'); ?></td></tr>
 							<tr><td class = "commentsAlign">Comments :</td><td><?php $cdata = array(
 												'type'  => 'textarea',
 												'name'  => 'comments',

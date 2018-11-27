@@ -14,7 +14,7 @@
 						<li><a href = "home">Home</a></li>
 						<li><a href = "aboutus">About Us</a></li>
 						<li><a href = "contactus">Contact Us</a></li>
-						<li><a href = "Client.html">Client</a></li>
+						<li><a href = "client">Client</a></li>
 						<li><a href = "Service.html">Service</a></li>
 						<li><a href = "Login.html">Login</a></li>
 					</ul>
