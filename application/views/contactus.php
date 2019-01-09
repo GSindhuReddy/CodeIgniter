@@ -31,18 +31,21 @@
 							<tr><td>* First Name :</td><td><?php 
 							$fdata = array(
 												'type'  => 'text',
-												'name'  => 'fName'
+												'name'  => 'fName',
+												
 										);
 							echo form_input($fdata);echo form_error('fName'); ?></td></tr>
 							
 							<tr><td>* Last Name :</td><td><?php $ldata = array(
 												'type'  => 'text',
-												'name'  => 'lName'
+												'name'  => 'lName',
+												
 										);
 							echo form_input($ldata);echo form_error('lName'); ?></td></tr>
 							<tr><td>* E-mail :</td><td><?php $edata = array(
 												'type'  => 'email',
-												'name'  => 'email'
+												'name'  => 'email',
+												
 										); 
 							echo form_input($edata);echo form_error('email');?></td></tr>
 							<tr><td>Phone :</td><td><?php $pdata = array(

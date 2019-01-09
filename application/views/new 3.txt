@@ -1,0 +1,9 @@
+Code Ignitor
+
+Access to Controllers
+
+[foldername][index.php][nameofcontroller]
+
+index.php controller is called by default.then it calls the default index method
+
+if u want to call custom method in ur controller then give the name of custom method in the url after the controller name

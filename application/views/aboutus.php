@@ -15,8 +15,8 @@
 						<li><a href = "aboutus">About Us</a></li>
 						<li><a href = "contactus">Contact Us</a></li>
 						<li><a href = "client">Client</a></li>
-						<li><a href = "Service.html">Service</a></li>
-						<li><a href = "Login.html">Login</a></li>
+						<li><a href = "service">Service</a></li>
+						<li><a href = "login">Login</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -31,7 +31,7 @@
 				<p><a href="tel:888-555-5555">555-888-8888</a></p>
 				<footer>
 					<span><em>Copyright &copy; 2018 Pet Store</em></span><br>
-					<span><a href = "mailto:akshay@waikar.com">sindu@garlapati.com</a></span>
+					<span><a href = "mailto:sindhugarlapati27@gmail.com">sindu@garlapati.com</a></span>
 				</footer>
 				</div>			
 			</div>
